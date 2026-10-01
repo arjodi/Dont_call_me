@@ -1,0 +1,6 @@
+{
+  "name": "Constrained Decoding Function Calling (Qwen3-0.6B) - 42",
+  "description": "Production-grade function calling using constrained decoding for Qwen3-0.6B. Guarantees 100% valid JSON and schema compliance via token-level logit masking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

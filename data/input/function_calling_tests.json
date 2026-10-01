@@ -1,0 +1,32 @@
+[
+  {
+    "prompt": "What is the sum of 2 and 3?"
+  },
+  {
+    "prompt": "What is the sum of 265 and 345?"
+  },
+  {
+    "prompt": "Greet shrek"
+  },
+  {
+    "prompt": "Greet john"
+  },
+  {
+    "prompt": "Reverse the string 'hello'"
+  },
+  {
+    "prompt": "Calculate the BMI for a person weighing 70 kilograms and standing 1.75 meters tall."
+  },
+  {
+    "prompt": "Check the weather in Paris with celsius unit."
+  },
+  {
+    "prompt": "Multiply 12 and 15 together."
+  },
+  {
+    "prompt": "Can you check if 29 is a prime number?"
+  },
+  {
+    "prompt": "Reverse the string 'world'"
+  }
+]

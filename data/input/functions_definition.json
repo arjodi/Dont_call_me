@@ -1,0 +1,144 @@
+[
+  {
+    "name": "fn_add_numbers",
+    "description": "Add two numbers together and return their sum.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "number",
+          "description": "The first number to add"
+        },
+        "b": {
+          "type": "number",
+          "description": "The second number to add"
+        }
+      },
+      "required": ["a", "b"]
+    },
+    "returns": {
+      "type": "number",
+      "description": "The sum of a and b"
+    }
+  },
+  {
+    "name": "fn_greet",
+    "description": "Generate a personalized greeting for a specified person or entity.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the entity to greet"
+        }
+      },
+      "required": ["name"]
+    },
+    "returns": {
+      "type": "string",
+      "description": "The greeting message"
+    }
+  },
+  {
+    "name": "fn_reverse_string",
+    "description": "Reverse an input text string character by character.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "The string to reverse"
+        }
+      },
+      "required": ["text"]
+    },
+    "returns": {
+      "type": "string",
+      "description": "The reversed string"
+    }
+  },
+  {
+    "name": "fn_calculate_bmi",
+    "description": "Calculate Body Mass Index given weight in kilograms and height in meters.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "weight_kg": {
+          "type": "number",
+          "description": "Weight in kilograms"
+        },
+        "height_m": {
+          "type": "number",
+          "description": "Height in meters"
+        }
+      },
+      "required": ["weight_kg", "height_m"]
+    },
+    "returns": {
+      "type": "number",
+      "description": "Body mass index score"
+    }
+  },
+  {
+    "name": "fn_get_weather",
+    "description": "Retrieve current weather conditions for a specified city and temperature unit.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string",
+          "description": "City name"
+        },
+        "unit": {
+          "type": "string",
+          "description": "Temperature unit, e.g. celsius or fahrenheit"
+        }
+      },
+      "required": ["city", "unit"]
+    },
+    "returns": {
+      "type": "object",
+      "description": "Weather data"
+    }
+  },
+  {
+    "name": "fn_multiply_numbers",
+    "description": "Multiply two numerical values together.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "description": "First factor"
+        },
+        "y": {
+          "type": "number",
+          "description": "Second factor"
+        }
+      },
+      "required": ["x", "y"]
+    },
+    "returns": {
+      "type": "number",
+      "description": "The product of x and y"
+    }
+  },
+  {
+    "name": "fn_is_prime",
+    "description": "Determine if an integer is a prime number.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "n": {
+          "type": "integer",
+          "description": "The integer number to test"
+        }
+      },
+      "required": ["n"]
+    },
+    "returns": {
+      "type": "boolean",
+      "description": "True if prime, false otherwise"
+    }
+  }
+]
